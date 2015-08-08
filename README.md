@@ -2,12 +2,15 @@
 
  A curated list with Github stars and forks stats based on awesome [awesome-go](https://github.com/avelino/awesome-go)
 
+# Awesome Go [![Build Status](https://travis-ci.org/avelino/awesome-go.svg?branch=master)](https://travis-ci.org/avelino/awesome-go) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 
+A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 
 ### Contributing
 
+Please take a quick gander at the [contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/avelino/awesome-go/graphs/contributors); you rock!
 
 [Join us on Slack](https://gophers.slack.com/messages/awesome/) to chat with other awesome-go maintainers!
 
@@ -765,7 +768,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for validation.*
 
-* [:octocat: govalidator](https://github.com/asaskevich/govalidator) - Validators and sanitizers for strings, numerics, slices and structs :star: 588 :fork_and_knife: 56
+* [:octocat: govalidator](https://github.com/asaskevich/govalidator) - Validators and sanitizers for strings, numerics, slices and structs :star: 589 :fork_and_knife: 56
 * [:octocat: validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving :star: 55 :fork_and_knife: 11
 
 
@@ -843,7 +846,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: go-wrap](https://github.com/go-on/wrap) - Small middlewares package for net/http. :star: 45 :fork_and_knife: 0
 * [:octocat: interpose](https://github.com/carbocation/interpose) - Minimalist net/http middleware for golang :star: 185 :fork_and_knife: 7
 * [:octocat: muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http. :star: 179 :fork_and_knife: 5
-* [:octocat: negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang. :star: 2754 :fork_and_knife: 185
+* [:octocat: negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang. :star: 2755 :fork_and_knife: 185
 * [:octocat: render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses. :star: 454 :fork_and_knife: 40
 * [:octocat: stats](https://github.com/thoas/stats) - A Go middleware that stores various information about your web application. :star: 262 :fork_and_knife: 11
 
