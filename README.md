@@ -2,7 +2,6 @@
 
  A curated list with Github stars and forks stats based on awesome [awesome-go](https://github.com/avelino/awesome-go)
 
-# Awesome Go [![Build Status](https://travis-ci.org/avelino/awesome-go.svg?branch=master)](https://travis-ci.org/avelino/awesome-go)
 
 
 
@@ -22,6 +21,7 @@
     - [Authentication & OAuth](#authentication--oauth)
     - [Command Line](#command-line)
     - [Configuration](#configuration)
+    - [Continuous Integration](#continuous-integration)
     - [CSS Preprocessors](#css-preprocessors)
     - [Data Structures](#data-structures)
     - [Database](#database)
@@ -67,6 +67,7 @@
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
     - [Editor Plugins](#editor-plugins)
+    - [Go Tools](#go-tools)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
         - [Other Software](#other-software)
@@ -105,7 +106,7 @@
 * [:octocat: gorbac](https://github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang. :star: 185 :fork_and_knife: 33
 * [:octocat: goth](https://github.com/markbates/goth) - provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple provides out of the box. :star: 427 :fork_and_knife: 25
 * [:octocat: httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware. :star: 71 :fork_and_knife: 10
-* [:octocat: jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT). :star: 631 :fork_and_knife: 75
+* [:octocat: jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT). :star: 632 :fork_and_knife: 75
 * [:octocat: oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support. :star: 443 :fork_and_knife: 114
 * [:octocat: osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library. :star: 588 :fork_and_knife: 112
 * [:octocat: permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt. :star: 93 :fork_and_knife: 6
@@ -147,6 +148,7 @@
 *Libraries for configuration parsing*
 
 * [:octocat: config](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing. :star: 23 :fork_and_knife: 6
+* [:octocat: env](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults). :star: 56 :fork_and_knife: 1
 * [:octocat: envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs. :star: 70 :fork_and_knife: 2
 * [:octocat: envconf](https://github.com/ian-kent/envconf) - Configuration from environment :star: 2 :fork_and_knife: 0
 * [:octocat: envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables. :star: 69 :fork_and_knife: 3
@@ -155,6 +157,12 @@
 * [:octocat: mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files :star: 83 :fork_and_knife: 7
 * [:octocat: viper](https://github.com/spf13/viper) - Go configuration with fangs :star: 663 :fork_and_knife: 74
 
+## Continuous Integration
+
+*Tools for help with continuous integration*
+
+* [:octocat: goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system. :star: 148 :fork_and_knife: 27
+* [:octocat: overalls](https://github.com/bluesuncorp/overalls) - Multi-Package go project coverprofile for tools like goveralls :star: 4 :fork_and_knife: 1
 
 ## CSS Preprocessors
 
@@ -204,6 +212,7 @@
 * [:octocat: go-mysql](https://github.com/siddontang/go-mysql) - A go toolset to handle MySQL protocol and replication. :star: 91 :fork_and_knife: 28
 * [:octocat: go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically. :star: 99 :fork_and_knife: 18
 * [goose](https://bitbucket.org/liamstask/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
+* [:octocat: kingshard](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang. :star: 305 :fork_and_knife: 52
 * [:octocat: myreplication](https://github.com/2tvenom/myreplication) - MySql binary log replication listener. Support statement and row based replication. :star: 27 :fork_and_knife: 6
 * [:octocat: orchestrator](https://github.com/outbrain/orchestrator) - MySQL replication topology manager & visualizer :star: 260 :fork_and_knife: 49
 * [:octocat: pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser :star: 2905 :fork_and_knife: 127
@@ -261,6 +270,7 @@
 *Libraries for working with dates and times.*
 
 * [:octocat: now](https://github.com/jinzhu/now) - Now is a time toolkit for golang. :star: 427 :fork_and_knife: 24
+* [:octocat: timeutil](https://github.com/leekchan/timeutil) - Useful extensions (Timedelta, Strftime, ...) to the golang's time package. :star: 65 :fork_and_knife: 2
 
 
 ## Distributed Systems
@@ -298,7 +308,7 @@
 * [:octocat: go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API :star: 276 :fork_and_knife: 25
 * [:octocat: golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API :star: 218 :fork_and_knife: 50
 * [:octocat: gopher-lua](https://github.com/yuin/gopher-lua) - a Lua 5.1 VM and compiler written in Go :star: 895 :fork_and_knife: 44
-* [:octocat: otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go :star: 1641 :fork_and_knife: 121
+* [:octocat: otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go :star: 1642 :fork_and_knife: 122
 * [:octocat: purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go :star: 7 :fork_and_knife: 0
 
 
@@ -401,7 +411,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: mlog](https://github.com/jbrodriguez/mlog) - A simple logging module for go, with 5 levels, an optional rotating logfile feature and stdout/stderr output. :star: 1 :fork_and_knife: 0
 * [:octocat: seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting. :star: 474 :fork_and_knife: 78
 * [:octocat: stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs. :star: 23 :fork_and_knife: 3
-* [:octocat: tail](https://github.com/ActiveState/tail) - A Go package striving to emulate the features of the BSD tail program. :star: 326 :fork_and_knife: 75
+* [:octocat: tail](https://github.com/ActiveState/tail) - A Go package striving to emulate the features of the BSD tail program. :star: 327 :fork_and_knife: 75
 
 ## Machine Learning
 
@@ -414,7 +424,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang. :star: 27 :fork_and_knife: 5
 * [:octocat: gobrain](https://github.com/goml/gobrain) - Neural Networks written in go :star: 38 :fork_and_knife: 6
 * [:octocat: godist](https://github.com/e-dard/godist) - Various probability distributions, and associated methods. :star: 2 :fork_and_knife: 1
-* [:octocat: GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go. :star: 2082 :fork_and_knife: 185
+* [:octocat: GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go. :star: 2083 :fork_and_knife: 185
 * [:octocat: golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go :star: 11 :fork_and_knife: 2
 * [:octocat: goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go. :star: 19 :fork_and_knife: 1
 * [:octocat: libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14. :star: 31 :fork_and_knife: 3
@@ -435,7 +445,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: go-nsq](https://github.com/bitly/go-nsq) - the official Go package for NSQ :star: 429 :fork_and_knife: 98
 * [:octocat: gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster. :star: 909 :fork_and_knife: 244
 * [:octocat: machinery](https://github.com/RichardKnop/machinery) - An asynchronous task queue/job queue based on distributed message passing. :star: 465 :fork_and_knife: 28
-* [:octocat: NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system. :star: 329 :fork_and_knife: 53
+* [:octocat: NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system. :star: 330 :fork_and_knife: 53
 * [:octocat: oplog](https://github.com/dailymotion/oplog) - A generic oplog/replication system for REST APIs :star: 24 :fork_and_knife: 4
 * [:octocat: pubsub](https://github.com/tuxychandru/pubsub) - A simple pubsub package for go. :star: 57 :fork_and_knife: 9
 * [:octocat: sarama](https://github.com/Shopify/sarama) - A Go library for Apache Kafka. :star: 576 :fork_and_knife: 108
@@ -451,7 +461,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: browscap_go](https://github.com/fromYukki/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/). :star: 8 :fork_and_knife: 1
 * [:octocat: go-flags](https://github.com/jessevdk/go-flags) - go command line option parser :star: 464 :fork_and_knife: 70
 * [:octocat: go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error. :star: 147 :fork_and_knife: 4
-* [:octocat: gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc). :star: 657 :fork_and_knife: 99
+* [:octocat: gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc). :star: 658 :fork_and_knife: 99
 * [:octocat: jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library. :star: 270 :fork_and_knife: 12
 * [:octocat: notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal. :star: 72 :fork_and_knife: 8
 * [:octocat: xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber :star: 3 :fork_and_knife: 0
@@ -510,11 +520,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries that implement Object-Relational Mapping or datamapping techniques.*
 
-* [:octocat: BeeDB](https://github.com/astaxie/beedb) - go ORM,support database/sql interface，pq/mysql/sqlite. :star: 548 :fork_and_knife: 115
+* [:octocat: beego orm](https://github.com/astaxie/beego/tree/master/orm) - A powerful orm framework for go. :star: 4895 :fork_and_knife: 1233
 * [:octocat: go-store](https://github.com/gosuri/go-store) - A simple and fast Redis backed key-value store library for Go. :star: 58 :fork_and_knife: 3
 * [:octocat: gomodel](https://github.com/cosiner/gomodel) - A lightweight, fast, orm-like library helps interactive with database. :star: 35 :fork_and_knife: 3
 * [:octocat: GORM](https://github.com/jinzhu/gorm) - The fantastic ORM library for Golang, aims to be developer friendly. :star: 2270 :fork_and_knife: 246
-* [:octocat: gorp](https://github.com/go-gorp/gorp) - Go Relational Persistence, ORM-ish library for Go. :star: 1668 :fork_and_knife: 225
+* [:octocat: gorp](https://github.com/go-gorp/gorp) - Go Relational Persistence, ORM-ish library for Go. :star: 1669 :fork_and_knife: 225
 * [:octocat: hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. :star: 641 :fork_and_knife: 54
 * [:octocat: QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM. :star: 351 :fork_and_knife: 56
 * [:octocat: upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers. :star: 251 :fork_and_knife: 26
@@ -529,7 +539,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: gigo](https://github.com/LyricalSecurity/gigo) - PIP-like dependency tool for golang, with support for private repositories and hashes. :star: 182 :fork_and_knife: 7
 * [:octocat: godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies. :star: 2458 :fork_and_knife: 183
 * [:octocat: gom](https://github.com/mattn/gom) - Go Manager - bundle for go. :star: 886 :fork_and_knife: 50
-* [:octocat: goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler. :star: 712 :fork_and_knife: 36
+* [:octocat: goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler. :star: 713 :fork_and_knife: 36
 * [:octocat: gopm](https://github.com/gpmgo/gopm) - Go Package Manager :star: 678 :fork_and_knife: 62
 * [:octocat: gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go. :star: 797 :fork_and_knife: 43
 * [:octocat: johnny-deps](https://github.com/VividCortex/johnny-deps) - Minimal dependency version using Git :star: 207 :fork_and_knife: 7
@@ -680,7 +690,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for accessing third party APIs.*
 
 * [:octocat: anaconda](https://github.com/ChimeraCoder/anaconda) - A Go client library for the Twitter 1.1 API :star: 363 :fork_and_knife: 98
-* [:octocat: aws-sdk-go](https://github.com/aws/aws-sdk-go) - The official AWS SDK for the Go programming language. Caution: The SDK is currently in the process of being developed, and not everything may be working fully yet. :star: 1855 :fork_and_knife: 197
+* [:octocat: aws-sdk-go](https://github.com/aws/aws-sdk-go) - The official AWS SDK for the Go programming language. Caution: The SDK is currently in the process of being developed, and not everything may be working fully yet. :star: 1856 :fork_and_knife: 197
 * [:octocat: brewerydb](https://github.com/naegelejd/brewerydb) - Go library for accessing the BreweryDB API. :star: 7 :fork_and_knife: 1
 * [:octocat: facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API :star: 214 :fork_and_knife: 61
 * [:octocat: gads](https://github.com/emiddleton/gads) - Google Adwords Unofficial API :star: 8 :fork_and_knife: 5
@@ -703,7 +713,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: snapchat](https://github.com/jamieomatthews/gosnap) - Go wrapper for the snapchat API :star: 27 :fork_and_knife: 0
 * [:octocat: spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API. :star: 4 :fork_and_knife: 0
 * [:octocat: steam](https://github.com/sostronk/go-steam) - Go Library to interact with Steam game servers. :star: 7 :fork_and_knife: 0
-* [:octocat: stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API :star: 290 :fork_and_knife: 55
+* [:octocat: stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API :star: 291 :fork_and_knife: 55
 * [:octocat: TheMovieDb](https://github.com/jbrodriguez/go-tmdb) - A simple golang package to communicate with [themoviedb.org](https://themoviedb.org) :star: 2 :fork_and_knife: 0
 * [:octocat: translate](https://github.com/poorny/translate) - Go online translation package :star: 5 :fork_and_knife: 0
 * [:octocat: tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API. :star: 0 :fork_and_knife: 0
@@ -735,10 +745,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON. :star: 6 :fork_and_knife: 0
 * [:octocat: multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers :star: 39 :fork_and_knife: 0
 * [:octocat: netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services. :star: 21 :fork_and_knife: 0
-* [:octocat: ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost. :star: 5421 :fork_and_knife: 471
+* [:octocat: ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost. :star: 5422 :fork_and_knife: 471
 * [:octocat: okrun](https://github.com/xta/okrun) - go run error steamroller :star: 10 :fork_and_knife: 2
 * [:octocat: panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump. :star: 118 :fork_and_knife: 1
-* [:octocat: peco](https://github.com/peco/peco) - Simplistic interactive filtering tool :star: 2476 :fork_and_knife: 83
+* [:octocat: peco](https://github.com/peco/peco) - Simplistic interactive filtering tool :star: 2477 :fork_and_knife: 83
 * [:octocat: pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency :star: 40 :fork_and_knife: 1
 * [:octocat: pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API :star: 23 :fork_and_knife: 3
 * [:octocat: profile](https://github.com/davecheney/profile) - Simple profiling support package for Go :star: 329 :fork_and_knife: 18
@@ -786,7 +796,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language. :star: 4895 :fork_and_knife: 1233
 * [:octocat: Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer. :star: 739 :fork_and_knife: 35
 * [:octocat: Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) and micro web framework in Go. :star: 2110 :fork_and_knife: 113
-* [:octocat: Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity. :star: 3751 :fork_and_knife: 359
+* [:octocat: Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity. :star: 3753 :fork_and_knife: 359
 * [:octocat: Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io) :star: 95 :fork_and_knife: 4
 * [:octocat: go-json-rest](https://github.com/ant0ine/go-json-rest) - A quick and easy way to setup a RESTful JSON API :star: 1767 :fork_and_knife: 166
 * [:octocat: go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's :star: 104 :fork_and_knife: 2
@@ -794,14 +804,14 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: go-socket.io](https://github.com/googollee/go-socket.io) - socket.io library for golang, a realtime application framework. :star: 764 :fork_and_knife: 113
 * [:octocat: Goat](https://github.com/bahlo/goat) - A minimalistic REST API server in Go :star: 60 :fork_and_knife: 4
 * [:octocat: gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go. :star: 790 :fork_and_knife: 53
-* [:octocat: Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants. :star: 2541 :fork_and_knife: 158
+* [:octocat: Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants. :star: 2542 :fork_and_knife: 158
 * [:octocat: Gondola](https://github.com/rainycape/gondola) - The web framework for writing faster sites, faster :star: 286 :fork_and_knife: 18
 * [:octocat: goose](https://github.com/ian-kent/goose) - Server Sent Events in Go :star: 8 :fork_and_knife: 1
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
 * [:octocat: httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework. :star: 1974 :fork_and_knife: 140
 * [:octocat: Macaron](https://github.com/Unknwon/macaron) - Macaron is a high productive and modular design web framework in Go. :star: 636 :fork_and_knife: 66
 * [:octocat: mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333. :star: 289 :fork_and_knife: 31
-* [:octocat: Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang. :star: 7380 :fork_and_knife: 739
+* [:octocat: Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang. :star: 7381 :fork_and_knife: 739
 * [:octocat: medeina](https://github.com/imdario/medeina) - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba. :star: 8 :fork_and_knife: 1
 * [:octocat: neo](https://github.com/ivpusic/neo) - Neo is minimal and fast Go Web Framework with extremely simple API. :star: 170 :fork_and_knife: 10
 * [:octocat: pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra. :star: 855 :fork_and_knife: 83
@@ -810,10 +820,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [:octocat: rex](https://github.com/goanywhere/rex) - Rex is a library for modular development built upon gorilla/mux, fully compatible with `net/http`. :star: 7 :fork_and_knife: 0
 * [sawsij](http://sawsij.com/) - lightweight, open-source web framework for building high-performance, data-driven web applications.
 * [:octocat: Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers :star: 213 :fork_and_knife: 6
-* [:octocat: tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go. :star: 291 :fork_and_knife: 33
+* [:octocat: tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go. :star: 292 :fork_and_knife: 33
 * [:octocat: tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard :star: 865 :fork_and_knife: 66
 * [:octocat: traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go. :star: 433 :fork_and_knife: 13
-* [:octocat: web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go. :star: 2351 :fork_and_knife: 317
+* [:octocat: web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go. :star: 2350 :fork_and_knife: 317
 * [:octocat: Zerver](https://github.com/cosiner/zerver) - Zerver is a expressive, modular, feature completed RESTful framework. :star: 105 :fork_and_knife: 14
 * [:octocat: zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go. :star: 87 :fork_and_knife: 5
 
@@ -852,7 +862,7 @@ Go software and plugins.
 * [:octocat: goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer. :star: 112 :fork_and_knife: 8
 * [GoCover.io](http://gocover.io/) - GoCover.io offers the code coverage of any golang package as a service.
 * [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
-* [:octocat: GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code. :star: 980 :fork_and_knife: 97
+* [:octocat: GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code. :star: 981 :fork_and_knife: 97
 * [Golint online](http://go-lint.appspot.com/) - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package.
 * [:octocat: gostatus](https://github.com/shurcooL/gostatus) - A command line tool, shows the status of repositories that contain Go packages. :star: 104 :fork_and_knife: 3
 * [:octocat: validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags. :star: 48 :fork_and_knife: 9
@@ -860,15 +870,18 @@ Go software and plugins.
 
 ## Editor Plugins
 
-* [:octocat: go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA. :star: 1896 :fork_and_knife: 283
+* [:octocat: go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA. :star: 1897 :fork_and_knife: 283
 * [:octocat: go-plus](https://github.com/joefitzgerald/go-plus) - Go (Golang) Package For Atom That Adds Autocomplete, Formatting, Syntax Checking, Linting and Vetting :star: 490 :fork_and_knife: 56
 * [:octocat: gocode](https://github.com/nsf/gocode) - An autocompletion daemon for the Go programming language :star: 2495 :fork_and_knife: 297
 * [:octocat: GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features. :star: 1854 :fork_and_knife: 153
 * [:octocat: velour](https://github.com/velour/velour) - An IRC client for the acme editor. :star: 9 :fork_and_knife: 2
 * [:octocat: vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - A Vim plugin to highlight syntax errors on save. :star: 49 :fork_and_knife: 13
-* [:octocat: vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim. :star: 2885 :fork_and_knife: 258
+* [:octocat: vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim. :star: 2886 :fork_and_knife: 258
 * [:octocat: Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes. :star: 87 :fork_and_knife: 11
 
+## Go Tools
+
+* [:octocat: colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output. :star: 45 :fork_and_knife: 4
 
 ## Software Packages
 
@@ -907,10 +920,10 @@ Software written in Go.
 * [:octocat: confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul. :star: 1832 :fork_and_knife: 210
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [:octocat: fleet](https://github.com/coreos/fleet) - A Distributed init System. :star: 1847 :fork_and_knife: 215
-* [:octocat: Go Package Store](https://github.com/shurcooL/Go-Package-Store#go-package-store-) - An app that displays updates for the Go packages in your GOPATH. :star: 480 :fork_and_knife: 8
+* [:octocat: Go Package Store](https://github.com/shurcooL/Go-Package-Store#go-package-store-) - An app that displays updates for the Go packages in your GOPATH. :star: 481 :fork_and_knife: 8
 * [:octocat: gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go. :star: 4 :fork_and_knife: 0
-* [:octocat: Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time. :star: 3839 :fork_and_knife: 251
-* [:octocat: heka](https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API. :star: 2441 :fork_and_knife: 321
+* [:octocat: Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time. :star: 3840 :fork_and_knife: 251
+* [:octocat: heka](https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API. :star: 2442 :fork_and_knife: 321
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
@@ -920,7 +933,7 @@ Software written in Go.
 * [:octocat: peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator. :star: 219 :fork_and_knife: 36
 * [:octocat: plubi](https://github.com/norwack/plubi) - A Golang Plugin Based IRC Bot. :star: 4 :fork_and_knife: 0
 * [:octocat: Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email. :star: 595 :fork_and_knife: 26
-* [:octocat: Seaweed File System](https://github.com/chrislusf/seaweedfs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek. :star: 948 :fork_and_knife: 129
+* [:octocat: Seaweed File System](https://github.com/chrislusf/seaweedfs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek. :star: 949 :fork_and_knife: 129
 * [:octocat: shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control) :star: 17 :fork_and_knife: 1
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [:octocat: Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging. :star: 150 :fork_and_knife: 13
@@ -957,6 +970,7 @@ Where to discover new Go libraries.
 * [dotGo](http://www.dotgo.io) - Paris, France
 * [GoCon](http://gocon.connpass.com/) - Tokyo, Japan
 * [GolangUK](http://www.golanguk.com/) - London, UK
+* [GopherChina](http://gopherchina.org) - Shanghai, China
 * [GopherCon](http://www.gophercon.com/) - Denver, USA
 * [GopherCon India](http://www.gophercon.in/) - Bengaluru, India
 * [GothamGo](http://gothamgo.com/) - New York City, USA
@@ -982,11 +996,11 @@ Where to discover new Go libraries.
 
 ## Websites
 
-* [:octocat: Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - A curated list of awesome remote jobs. A lot of them is looking for Go hackers. :star: 3547 :fork_and_knife: 297
-* [:octocat: awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists. :star: 13388 :fork_and_knife: 1486
+* [:octocat: Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - A curated list of awesome remote jobs. A lot of them is looking for Go hackers. :star: 3548 :fork_and_knife: 297
+* [:octocat: awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists. :star: 13389 :fork_and_knife: 1486
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [Go Blog](http://blog.golang.org) - The official Go blog
-* [:octocat: Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki :star: 9715 :fork_and_knife: 935
+* [:octocat: Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki :star: 9715 :fork_and_knife: 936
 * [godoc.org](http://godoc.org/) - Documentation for open source Go packages.
 * [:octocat: golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art :star: 51 :fork_and_knife: 2
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list
