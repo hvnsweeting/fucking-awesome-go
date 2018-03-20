@@ -1180,6 +1180,7 @@ Software written in Go.
 * [:octocat: GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions. :star: 2062 :fork_and_knife: 143
 * [:octocat: kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler. :star: 816 :fork_and_knife: 34
 * [:octocat: kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google. :star: 14782 :fork_and_knife: 4542
+* [:octocat: lstags](https://github.com/ivanilves/lstags) - manipulates Docker images across different registries. :star: 158 :fork_and_knife: 7
 * [:octocat: Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data. :star: 151 :fork_and_knife: 27
 * [:octocat: ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB. :star: 67 :fork_and_knife: 4
 * [:octocat: Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration. :star: 5381 :fork_and_knife: 1255
